@@ -1,0 +1,26 @@
+{
+  "name": "gulp-petrus",
+  "version": "0.0.1",
+  "description": "Quality guard by failing a build if quality metrics fall below a set threshold",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "istanbul": "~0.2.10",
+    "through2": "~0.4.2",
+    "multimatch": "~0.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.20.0",
+    "gulp-util": "~2.2.14",
+    "should": "~4.0.0",
+    "underscore": "~1.6.0"
+  }
+}
